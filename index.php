@@ -6,7 +6,7 @@
     <title>Đăng nhập</title>
 </head>
 <body>
-    <h2>Đăng nhập</h2>
+    <h2>Đăng nhập s2 </h2>
     <form action="process_login.php" method="POST">
         <label for="username">Tên người dùng:</label>
         <input type="text" name="username" id="username" required><br>
@@ -18,3 +18,4 @@
     </form>
 </body>
 </html>
+ 

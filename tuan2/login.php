@@ -21,8 +21,9 @@
                 if ($password === '123') {
                     // Lưu tên đăng nhập vào COOKIE với thời gian hiệu lực là 10 phút
                     setcookie('username', $username, time() + 600);
-
+ 
                     echo "Đăng nhập thành công. Xin chào bạn $username!";
+                   
                 } else {
                     echo "Mật khẩu không đúng.";
                 }
